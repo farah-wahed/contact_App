@@ -1,16 +1,50 @@
-# untitled
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
 
-A new Flutter project.
+<body>
 
-## Getting Started
+  <h1>📱 Flutter Contact App</h1>
+  <p>
+    A simple Flutter app to create, manage, and delete contacts.
+    Each contact has a name, email, phone number, and optional image.
+  </p>
 
-This project is a starting point for a Flutter application.
+  <section>
+    <h2>🚀 Features</h2>
+    <ul>
+      <li>Add contacts</li>
+      <li>Delete contacts</li>
+      <li>Custom contact card widget</li>
+      <li>Form validation</li>
+      <li>Optional image with default fallback</li>
+    </ul>
+  </section>
 
-A few resources to get you started if this is your first Flutter project:
+  <section>
+  <h2 onclick="toggleSection(this)">🛠️ Tech Stack</h2>
+  <ul>
+    <li>Flutter</li>
+    <li>Dart</li>
+    <li>Stateful & Stateless Widgets</li>
+    <li>Image Picker</li>
+  </ul>
+</section>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<section>
+  <h2 onclick="toggleSection(this)">💡 Future Improvements</h2>
+  <ul>
+    <li>Edit contacts</li>
+    <li>Search</li>
+    <li>Local storage</li>
+    <li>Cloud sync</li>
+  </ul>
+</section> 
+
+</body>
+</html>
